@@ -1,0 +1,8 @@
+const dotenv = require('dotenv').config({ path: '.env' });
+
+JWT_USER_PASSWORD = "KSLDJFLSKDJHFKLASJF_238984U23_SLDKJFLSJ";
+JWT_ADMIN_PASSWORD = "KLSDJFLKJSDKLFJSLDFJS-34OUOI324U";
+module.exports = {
+    JWT_ADMIN_PASSWORD,
+    JWT_USER_PASSWORD
+}
