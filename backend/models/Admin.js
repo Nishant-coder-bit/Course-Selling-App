@@ -7,4 +7,5 @@ const adminSchema = new mongoose.Schema({
     lastName: String,
 })
 
+
 module.exports = mongoose.model("Admin", adminSchema)
